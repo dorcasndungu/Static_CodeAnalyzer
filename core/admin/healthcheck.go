@@ -33,6 +33,7 @@ var AdminCheckList map[string]HealthChecker
 
 // HealthChecker health checker interface
 type HealthChecker interface {
+	go
 	Check() error
 }
 
