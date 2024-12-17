@@ -44,4 +44,5 @@ func AddHealthCheck(name string, hc HealthChecker) {
 
 func init() {
 	AdminCheckList = make(map[string]HealthChecker)
+	AdminCheckList = make(map[string]HealthChecker)
 }
